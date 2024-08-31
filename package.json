@@ -1,0 +1,42 @@
+{
+  "name": "xenus-ember",
+  "displayName": "Xenus Ember",
+  "description": "A dark theme with smooth, muted colors and striking accents for Visual Studio Code, designed for extended coding sessions with minimal eye strain.",
+  "version": "0.0.1",
+  "publisher": "xenus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/xenus-ember" // Update with your repository URL
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "coding",
+    "xenusweb",
+    "contrast",
+    "xenus",
+    "visual studio code"
+  ],
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "screenshots": [
+    {
+      "path": "images/preview.png",
+      "description": "Preview of Xenus Ember theme in Visual Studio Code"
+    }
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Xenus Ember",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Xenus-Ember-color-theme.json"
+      }
+    ]
+  }
+}
